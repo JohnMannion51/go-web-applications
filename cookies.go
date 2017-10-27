@@ -32,7 +32,7 @@ func templateHandler(w http.ResponseWriter, r *http.Request){
 		Guess,_ := strconv.Atoi(r.FormValue("guess"))
 
 		if Guess == target{
-			message ="Congrats "+strconv.Itoa(Guess)+" was the answer"
+			message ="Well done "+strconv.Itoa(Guess)+" was the answer"
 		}else if Guess < target{
 		   message="Try Again your guess  was  too low"
 		}else {
