@@ -6,11 +6,13 @@ must first be installed on your machine. Once that is installed, the code can be
 ## Clone this repository using Git.
 1. git clone https://github.com/JohnMannion51/go-web-applications.git
 2. cd go-web-applications on your machine
-Compile the first file with the following command.
-3. go build "filename.go" 
+3. Compile the first file with the following command.
+go build "cookies.go" 
 (this will produce an executable file)
+"cookies.exe"
 4. Run the executable produced.
-5. Repeat step 3 and 4 , replacing the filenames as appropriate.
+5. Open your web browser and type localhost8080/guess to begin the guessing game 
+6. Repeat step 3 and 4 , replacing the filenames as appropriate.
 
 
 # Worksheet
